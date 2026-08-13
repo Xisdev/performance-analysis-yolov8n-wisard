@@ -18,7 +18,7 @@ This directory is intended to store pre-trained YOLOv8 model weights trained on 
 
 ## Download
 
-Download pre-trained weights from: **[Download Link — TBD]**
+Download pre-trained weights from: **[https://drive.google.com/drive/folders/1KLwcvxjbaATgcCAOZ6mj9RvNxdj5eP0O?usp=sharing]**
 
 <!-- 
 TODO: Update with actual download links

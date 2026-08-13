@@ -58,7 +58,7 @@ Sample thermal infrared images from the dataset are included in `sample_images/`
 
 To obtain the full dataset:
 
-1. Download the WiSARD IR dataset from [source link]
+1. Download the WiSARD IR dataset from [https://drive.google.com/file/d/1PKjGCqUszHH1nMbXUBTwPSDqRabAt_ht/view]
 2. Extract the archive
 3. Place the `images/` and `labels/` directories alongside `data.yaml`:
 

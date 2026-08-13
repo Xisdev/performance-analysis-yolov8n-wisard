@@ -73,7 +73,6 @@ This research benchmarks all five YOLOv8 variants for **thermal infrared human d
 - **Thermal/IR-specific augmentation** (no HSV hue/saturation changes)
 - **Edge deployment** on Jetson Nano (TensorRT FP16) & Raspberry Pi 4 (TFLite FP32)
 - **Comprehensive benchmarking**: accuracy (mAP), latency, FPS, power, temperature
-- **Cross-dataset evaluation** on WiSARD IR and AIResQ Benchmark
 
 ---
 
@@ -163,8 +162,7 @@ This research benchmarks all five YOLOv8 variants for **thermal infrared human d
 │   └── run_inference.py         # Generic inference
 │
 ├── evaluation/                  # Model evaluation scripts
-│   ├── test_model_wisard.py     # Eval on WiSARD IR
-│   ├── test_model_airesq.py     # Eval on AIResQ
+│   ├── test_model_wisard.py     # Eval on WiSARD IR test set
 │   ├── val.py                   # Validation split evaluation
 │   └── evaluate_accuracy.py     # Accuracy evaluation
 │
@@ -265,14 +263,11 @@ python inference/detect_video.py
 
 ### 4. Evaluation
 
-Evaluate model accuracy on test datasets:
+Evaluate model accuracy on the WiSARD IR test set:
 
 ```bash
 # Evaluate on WiSARD IR test set
 python evaluation/test_model_wisard.py
-
-# Evaluate on AIResQ benchmark
-python evaluation/test_model_airesq.py
 
 # Run validation
 python evaluation/val.py
@@ -298,13 +293,13 @@ Pre-trained model weights are available for download:
 
 | Model | Format | Size | Download |
 |-------|--------|------|----------|
-| YOLOv8n | .pt | 6 MB | [Link](#) |
-| YOLOv8s | .pt | 22 MB | [Link](#) |
-| YOLOv8m | .pt | 52 MB | [Link](#) |
-| YOLOv8l | .pt | 87 MB | [Link](#) |
-| YOLOv8x | .pt | 137 MB | [Link](#) |
+| YOLOv8n | .pt | 6 MB | [Google Drive](https://drive.google.com/drive/folders/1KLwcvxjbaATgcCAOZ6mj9RvNxdj5eP0O?usp=sharing) |
+| YOLOv8s | .pt | 22 MB | [Google Drive](https://drive.google.com/drive/folders/1KLwcvxjbaATgcCAOZ6mj9RvNxdj5eP0O?usp=sharing) |
+| YOLOv8m | .pt | 52 MB | [Google Drive](https://drive.google.com/drive/folders/1KLwcvxjbaATgcCAOZ6mj9RvNxdj5eP0O?usp=sharing) |
+| YOLOv8l | .pt | 87 MB | [Google Drive](https://drive.google.com/drive/folders/1KLwcvxjbaATgcCAOZ6mj9RvNxdj5eP0O?usp=sharing) |
+| YOLOv8x | .pt | 137 MB | [Google Drive](https://drive.google.com/drive/folders/1KLwcvxjbaATgcCAOZ6mj9RvNxdj5eP0O?usp=sharing) |
 
-> **Note:** Download links will be updated. Place downloaded weights in the `models/` directory.
+> Place downloaded weights in the `models/` directory.
 
 See [`models/README.md`](models/README.md) for detailed instructions.
 
@@ -340,7 +335,7 @@ If you use this work in your research, please cite:
   title={Benchmarking YOLOv8 for Infrared Human Detection on Edge Devices in Drone-Based Search and Rescue},
   author={Kusdinar},
   year={2026},
-  institution={[Your University]}
+  institution={[Universitas Garut]}
 }
 ```
 
@@ -355,5 +350,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 🙏 Acknowledgments
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) — Object detection framework
-- [WiSARD Dataset](https://github.com/...) — Thermal infrared dataset for search and rescue
-- [AIResQ Benchmark](https://github.com/...) — Cross-dataset evaluation benchmark
+- [WiSARD Dataset](https://sites.google.com/uw.edu/wisard/) — Thermal infrared dataset for search and rescue
+
