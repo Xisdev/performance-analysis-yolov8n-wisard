@@ -1,0 +1,33 @@
+{
+  "model_name": "best_yolov8l_fp32",
+  "model_path": "tflite_model/best_yolov8l_fp32.tflite",
+  "model_size_mb": 166.62,
+  "device": "raspi4",
+  "status": "OK",
+  "config": {
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou_threshold": 0.5
+  },
+  "dataset": {
+    "total_images": 5950,
+    "total_gt_objects": 4391,
+    "total_predictions": 3611
+  },
+  "metrics": {
+    "precision": 68.71,
+    "recall": 56.5,
+    "f1_score": 62.01,
+    "mAP50": 40.94,
+    "mean_iou": 70.3
+  },
+  "counts": {
+    "true_positives": 2481,
+    "false_positives": 1130,
+    "false_negatives": 1910
+  },
+  "system": {
+    "hostname": "raspberrypi",
+    "timestamp": "2026-07-29T23:16:09"
+  }
+}

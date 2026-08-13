@@ -1,0 +1,38 @@
+{
+  "model_path": "D:\\RISET\\drone-wisard\\runs_yolov8n_wisard\\runs_yolov8n_wisard\\yolov8n_optimized\\weights\\best.pt",
+  "dataset": "D:\\RISET\\drone-wisard\\datasets\\wisard_ir\\data.yaml",
+  "test_images_dir": "D:\\RISET\\drone-wisard\\datasets\\wisard_ir\\images\\test",
+  "image_size": 640,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "official_metrics": {
+    "mAP50": 0.5362311536867348,
+    "mAP50-95": 0.2209784853311434,
+    "Precision": 0.6016150740242261,
+    "Recall": 0.7125939421544067,
+    "Box_Loss": 0.0,
+    "Class_Loss": 0.0,
+    "DFL_Loss": 0.0,
+    "F1": 0.652418682235196
+  },
+  "custom_metrics": {
+    "Total Images": 5950.0,
+    "Total GT Objects": 4391.0,
+    "Total Predictions": 4978.0,
+    "True Positives (TP)": 3046.0,
+    "False Positives (FP)": 1932.0,
+    "False Negatives (FN)": 1345.0,
+    "Precision": 0.6118923262354359,
+    "Recall": 0.6936916419949898,
+    "F1 Score": 0.6502294802006618,
+    "Accuracy (Jaccard)": 0.4817333544203701,
+    "Mean IoU (TP)": 0.6751617789268494,
+    "Mean Confidence": 0.5442275473299444,
+    "Best F1 Threshold": 0.1,
+    "Best F1 Score": 0.6502294802006618,
+    "Avg Inference (ms)": 42.46762547873356,
+    "Speed (FPS)": 23.54734903887594
+  },
+  "best_f1_threshold": 0.1,
+  "best_f1_value": 0.6502294802006618
+}

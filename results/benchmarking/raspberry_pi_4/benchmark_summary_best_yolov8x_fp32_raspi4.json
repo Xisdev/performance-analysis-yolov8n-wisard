@@ -1,0 +1,76 @@
+{
+  "model_name": "best_yolov8x_fp32",
+  "model_path": "tflite_model/best_yolov8x_fp32.tflite",
+  "model_size_mb": 260.15,
+  "device": "raspi4",
+  "model_format": "tflite",
+  "status": "OK",
+  "image_count": 5950,
+  "warmup_count": 10,
+  "benchmark_count": 5940,
+  "config": {
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou": 0.45
+  },
+  "latency": {
+    "preprocess_ms": {
+      "mean": 7.69,
+      "median": 7.68,
+      "std": 0.15,
+      "min": 6.99,
+      "max": 9.8,
+      "p95": 7.92,
+      "p99": 8.07
+    },
+    "inference_ms": {
+      "mean": 29051.23,
+      "median": 29049.74,
+      "std": 22.24,
+      "min": 28987.6,
+      "max": 29396.97,
+      "p95": 29085.35,
+      "p99": 29104.37
+    },
+    "postprocess_ms": {
+      "mean": 2.44,
+      "median": 2.1,
+      "std": 0.47,
+      "min": 2.0,
+      "max": 7.65,
+      "p95": 3.05,
+      "p99": 3.12
+    },
+    "total_ms": {
+      "mean": 29061.36,
+      "median": 29059.97,
+      "std": 22.26,
+      "min": 28997.33,
+      "max": 29406.67,
+      "p95": 29095.5,
+      "p99": 29114.79
+    }
+  },
+  "fps": {
+    "mean": 0.03,
+    "median": 0.03,
+    "std": 0.0,
+    "min": 0.03,
+    "max": 0.03,
+    "p5": 0.03
+  },
+  "detections": {
+    "total": 3496,
+    "mean_per_frame": 0.59
+  },
+  "timing": {
+    "model_load_s": 0.01,
+    "benchmark_total_s": 172979.6
+  },
+  "system": {
+    "hostname": "raspberrypi",
+    "platform": "Linux-6.18.34+rpt-rpi-v8-aarch64-with-glibc2.41",
+    "python": "3.11.9",
+    "timestamp": "2026-07-27T14:50:05.549086"
+  }
+}

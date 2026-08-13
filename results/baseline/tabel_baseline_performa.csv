@@ -1,0 +1,6 @@
+Model,Varian,Total Epoch,Best Epoch,Presisi (%),Recall (%),F1-Score (%),mAP50 (%),mAP50-95 (%)
+YOLOv8n (Nano),yolov8n,32,17,56.26,57.19,56.72,53.2,27.29
+YOLOv8s (Small),yolov8s,69,17,60.74,56.33,58.45,51.3,23.1
+YOLOv8m (Medium),yolov8m,24,19,48.86,55.0,51.75,49.48,25.84
+YOLOv8l (Large),yolov8l,400,340,63.2,57.64,60.29,57.92,32.59
+YOLOv8x (X-Large),yolov8x,400,317,60.48,55.18,57.71,53.63,29.37

@@ -1,0 +1,78 @@
+{
+  "title": "Tabel 4.1 - Hasil Pelatihan Model: Performa Baseline",
+  "description": "Metrik performa model YOLOv8 pada dataset WiSARD IR (best epoch)",
+  "dataset": "WiSARD IR (31554 train / 16302 val / 5950 test / 1 class: human)",
+  "optimizer": "AdamW (lr=0.001, wd=0.01)",
+  "models": [
+    {
+      "variant": "yolov8n",
+      "label": "YOLOv8n (Nano)",
+      "total_epochs": 32,
+      "best_epoch": 17,
+      "early_stopping": true,
+      "metrics": {
+        "precision_pct": 56.26,
+        "recall_pct": 57.19,
+        "f1_score_pct": 56.72,
+        "mAP50_pct": 53.2,
+        "mAP50_95_pct": 27.29
+      }
+    },
+    {
+      "variant": "yolov8s",
+      "label": "YOLOv8s (Small)",
+      "total_epochs": 69,
+      "best_epoch": 17,
+      "early_stopping": true,
+      "metrics": {
+        "precision_pct": 60.74,
+        "recall_pct": 56.33,
+        "f1_score_pct": 58.45,
+        "mAP50_pct": 51.3,
+        "mAP50_95_pct": 23.1
+      }
+    },
+    {
+      "variant": "yolov8m",
+      "label": "YOLOv8m (Medium)",
+      "total_epochs": 24,
+      "best_epoch": 19,
+      "early_stopping": true,
+      "metrics": {
+        "precision_pct": 48.86,
+        "recall_pct": 55.0,
+        "f1_score_pct": 51.75,
+        "mAP50_pct": 49.48,
+        "mAP50_95_pct": 25.84
+      }
+    },
+    {
+      "variant": "yolov8l",
+      "label": "YOLOv8l (Large)",
+      "total_epochs": 400,
+      "best_epoch": 340,
+      "early_stopping": false,
+      "metrics": {
+        "precision_pct": 63.2,
+        "recall_pct": 57.64,
+        "f1_score_pct": 60.29,
+        "mAP50_pct": 57.92,
+        "mAP50_95_pct": 32.59
+      }
+    },
+    {
+      "variant": "yolov8x",
+      "label": "YOLOv8x (X-Large)",
+      "total_epochs": 400,
+      "best_epoch": 317,
+      "early_stopping": false,
+      "metrics": {
+        "precision_pct": 60.48,
+        "recall_pct": 55.18,
+        "f1_score_pct": 57.71,
+        "mAP50_pct": 53.63,
+        "mAP50_95_pct": 29.37
+      }
+    }
+  ]
+}

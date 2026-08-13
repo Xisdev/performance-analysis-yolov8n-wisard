@@ -1,0 +1,192 @@
+{
+  "average_latency_fps": {
+    "yolov8n": {
+      "frames": 5930,
+      "preprocess_ms": 5.67,
+      "inference_ms": 46.51,
+      "postprocess_ms": 6.49,
+      "total_ms": 58.67,
+      "fps": 17.07
+    },
+    "yolov8s": {
+      "frames": 5930,
+      "preprocess_ms": 5.82,
+      "inference_ms": 104.05,
+      "postprocess_ms": 9.31,
+      "total_ms": 119.19,
+      "fps": 8.4
+    },
+    "yolov8m": {
+      "frames": 5930,
+      "preprocess_ms": 5.92,
+      "inference_ms": 235.77,
+      "postprocess_ms": 11.03,
+      "total_ms": 252.73,
+      "fps": 3.96
+    },
+    "yolov8l": {
+      "frames": 5930,
+      "preprocess_ms": 5.93,
+      "inference_ms": 422.42,
+      "postprocess_ms": 12.0,
+      "total_ms": 440.34,
+      "fps": 2.27
+    },
+    "yolov8x": {
+      "frames": 5930,
+      "preprocess_ms": 5.89,
+      "inference_ms": 635.63,
+      "postprocess_ms": 11.31,
+      "total_ms": 652.83,
+      "fps": 1.53
+    }
+  },
+  "average_resource": {
+    "yolov8n": {
+      "samples": 446,
+      "cpu_percent": 17.07,
+      "gpu_percent": 62.71,
+      "ram_used_mb": 3091.9,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 40.3
+    },
+    "yolov8s": {
+      "samples": 818,
+      "cpu_percent": 13.16,
+      "gpu_percent": 76.96,
+      "ram_used_mb": 3239.53,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 42.44
+    },
+    "yolov8m": {
+      "samples": 1621,
+      "cpu_percent": 11.42,
+      "gpu_percent": 87.08,
+      "ram_used_mb": 3379.57,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 44.05
+    },
+    "yolov8l": {
+      "samples": 2735,
+      "cpu_percent": 10.53,
+      "gpu_percent": 91.73,
+      "ram_used_mb": 3492.16,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 44.55
+    },
+    "yolov8x": {
+      "samples": 3998,
+      "cpu_percent": 9.81,
+      "gpu_percent": 92.77,
+      "ram_used_mb": 3674.56,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 45.26
+    }
+  },
+  "max_resource": {
+    "yolov8n": {
+      "samples": 446,
+      "cpu_percent": 48.1,
+      "gpu_percent": 99.5,
+      "ram_used_mb": 3156.0,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 41.5
+    },
+    "yolov8s": {
+      "samples": 818,
+      "cpu_percent": 35.9,
+      "gpu_percent": 99.7,
+      "ram_used_mb": 3291.0,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 44.0
+    },
+    "yolov8m": {
+      "samples": 1621,
+      "cpu_percent": 34.0,
+      "gpu_percent": 99.7,
+      "ram_used_mb": 3413.0,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 45.0
+    },
+    "yolov8l": {
+      "samples": 2735,
+      "cpu_percent": 38.4,
+      "gpu_percent": 99.9,
+      "ram_used_mb": 3521.0,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 45.5
+    },
+    "yolov8x": {
+      "samples": 3998,
+      "cpu_percent": 39.6,
+      "gpu_percent": 99.7,
+      "ram_used_mb": 3706.0,
+      "ram_total_mb": 3956.0,
+      "temperature_c": 46.5
+    }
+  },
+  "average_power": {
+    "yolov8n": {
+      "samples": 474,
+      "power_total_mw": 5630.83,
+      "power_gpu_mw": 2286.15,
+      "power_cpu_mw": 1030.68
+    },
+    "yolov8s": {
+      "samples": 834,
+      "power_total_mw": 6655.47,
+      "power_gpu_mw": 3238.9,
+      "power_cpu_mw": 890.28
+    },
+    "yolov8m": {
+      "samples": 1649,
+      "power_total_mw": 7189.23,
+      "power_gpu_mw": 3752.46,
+      "power_cpu_mw": 789.38
+    },
+    "yolov8l": {
+      "samples": 2775,
+      "power_total_mw": 7553.52,
+      "power_gpu_mw": 4067.68,
+      "power_cpu_mw": 734.24
+    },
+    "yolov8x": {
+      "samples": 4041,
+      "power_total_mw": 7552.56,
+      "power_gpu_mw": 4091.42,
+      "power_cpu_mw": 743.29
+    }
+  },
+  "max_power": {
+    "yolov8n": {
+      "samples": 474,
+      "power_total_mw": 6989.0,
+      "power_gpu_mw": 3015.0,
+      "power_cpu_mw": 2170.0
+    },
+    "yolov8s": {
+      "samples": 834,
+      "power_total_mw": 8121.0,
+      "power_gpu_mw": 3981.0,
+      "power_cpu_mw": 1774.0
+    },
+    "yolov8m": {
+      "samples": 1649,
+      "power_total_mw": 8356.0,
+      "power_gpu_mw": 4487.0,
+      "power_cpu_mw": 1660.0
+    },
+    "yolov8l": {
+      "samples": 2775,
+      "power_total_mw": 8891.0,
+      "power_gpu_mw": 4605.0,
+      "power_cpu_mw": 1660.0
+    },
+    "yolov8x": {
+      "samples": 4041,
+      "power_total_mw": 9008.0,
+      "power_gpu_mw": 4762.0,
+      "power_cpu_mw": 1860.0
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "model_name": "best_yolov8l_fp16",
+  "model_path": "models/best_yolov8l_fp16.engine",
+  "model_size_mb": 164.89,
+  "device": "jetson_nano",
+  "image_count": 5950,
+  "warmup_count": 20,
+  "benchmark_count": 5930,
+  "config": {
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou": 0.45
+  },
+  "latency": {
+    "preprocess_ms": {
+      "mean": 5.93,
+      "median": 5.91,
+      "std": 0.34,
+      "min": 5.21,
+      "max": 10.26,
+      "p95": 6.48,
+      "p99": 6.87
+    },
+    "inference_ms": {
+      "mean": 422.42,
+      "median": 422.48,
+      "std": 1.1,
+      "min": 418.48,
+      "max": 427.45,
+      "p95": 424.11,
+      "p99": 424.85
+    },
+    "postprocess_ms": {
+      "mean": 12.0,
+      "median": 11.49,
+      "std": 3.98,
+      "min": 2.47,
+      "max": 22.74,
+      "p95": 17.92,
+      "p99": 18.95
+    },
+    "total_ms": {
+      "mean": 440.34,
+      "median": 440.19,
+      "std": 4.52,
+      "min": 427.39,
+      "max": 452.87,
+      "p95": 446.9,
+      "p99": 448.3
+    }
+  },
+  "fps": {
+    "mean": 2.27,
+    "median": 2.27,
+    "std": 0.02,
+    "min": 2.21,
+    "max": 2.34,
+    "p5": 2.24
+  },
+  "detections": {
+    "total": 3619,
+    "mean_per_frame": 0.61
+  },
+  "timing": {
+    "model_load_s": 0.01,
+    "benchmark_total_s": 2717.39
+  },
+  "system": {
+    "hostname": "nano",
+    "platform": "Linux-4.9.253-tegra-aarch64-with-glibc2.29",
+    "python": "3.8.10",
+    "timestamp": "2026-07-20T08:23:17.260654"
+  }
+}

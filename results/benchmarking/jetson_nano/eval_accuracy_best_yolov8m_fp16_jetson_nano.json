@@ -1,0 +1,33 @@
+{
+  "model_name": "best_yolov8m_fp16",
+  "model_path": "models/best_yolov8m_fp16.engine",
+  "model_size_mb": 104.36,
+  "device": "jetson_nano",
+  "status": "OK",
+  "config": {
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou_threshold": 0.5
+  },
+  "dataset": {
+    "total_images": 5950,
+    "total_gt_objects": 4391,
+    "total_predictions": 4660
+  },
+  "metrics": {
+    "precision": 60.9,
+    "recall": 64.63,
+    "f1_score": 62.71,
+    "mAP50": 48.23,
+    "mean_iou": 70.73
+  },
+  "counts": {
+    "true_positives": 2838,
+    "false_positives": 1822,
+    "false_negatives": 1553
+  },
+  "system": {
+    "hostname": "nano",
+    "timestamp": "2026-07-16T13:54:53"
+  }
+}

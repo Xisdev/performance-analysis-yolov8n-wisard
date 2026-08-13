@@ -1,0 +1,45 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# YAML
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# JSON
+*.json text eol=lf
+
+# CSV
+*.csv text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Batch files
+*.bat text eol=crlf
+
+# Jupyter notebooks
+*.ipynb text eol=lf
+
+# Images (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.gif binary
+
+# Model weights (binary, large files)
+*.pt binary
+*.onnx binary
+*.engine binary
+*.tflite binary
+*.npy binary
+
+# Videos (binary)
+*.mp4 binary
+*.avi binary
