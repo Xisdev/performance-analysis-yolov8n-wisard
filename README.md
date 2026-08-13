@@ -201,7 +201,7 @@ This research benchmarks all five YOLOv8 variants for **thermal infrared human d
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/drone-wisard.git
+git clone https://github.com/Xisdev/performance-analysis-yolov8n-wisard.git
 cd drone-wisard
 
 # Create virtual environment
