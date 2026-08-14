@@ -98,7 +98,18 @@ This research benchmarks all five YOLOv8 variants for **thermal infrared human d
 | YOLOv8x | 53.63% | 42.54% | 41.94% |
 
 <p align="center">
-  <img src="results/charts/grafik_map50_perbandingan_platform.png" alt="mAP50 Comparison" width="600"/>
+  <img src="results/charts/grafik_map50_perbandingan_platform.png" alt="mAP50 Comparison" width="800"/>
+</p>
+
+### Hardware Performance (FPS, Latency, Power, & Temperature)
+
+<p align="center">
+  <img src="results/charts/grafik_fps_horizontal.png" alt="FPS Comparison" width="49%"/>
+  <img src="results/charts/grafik_total_latensi_perbandingan.png" alt="Latency Comparison" width="49%"/>
+</p>
+<p align="center">
+  <img src="results/charts/grafik_daya_avg.png" alt="Power Consumption" width="49%"/>
+  <img src="results/charts/grafik_suhu_max.png" alt="Maximum Temperature" width="49%"/>
 </p>
 
 ---
