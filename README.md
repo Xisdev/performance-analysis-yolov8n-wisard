@@ -309,14 +309,23 @@ See [`models/README.md`](models/README.md) for detailed instructions.
 
 ## 📄 Citation
 
-If you use this work in your research, please cite:
+If you use this work in your research, please cite it using one of the following formats:
 
+**APA Style**
+> Kusdinar. (2026). *Benchmarking YOLOv8 for Infrared Human Detection on Edge Devices in Drone-Based Search and Rescue* [Bachelor's thesis (Skripsi), Universitas Garut].
+
+**IEEE Style**
+> Kusdinar, "Benchmarking YOLOv8 for Infrared Human Detection on Edge Devices in Drone-Based Search and Rescue," Bachelor's thesis (Skripsi), Universitas Garut, Garut, Indonesia, 2026.
+
+**BibTeX**
 ```bibtex
-@thesis{kusdinar2026wisard,
-  title={Benchmarking YOLOv8 for Infrared Human Detection on Edge Devices in Drone-Based Search and Rescue},
-  author={Kusdinar},
-  year={2026},
-  institution={[Universitas Garut]}
+@mastersthesis{kusdinar2026skripsi,
+  author  = {Kusdinar},
+  title   = {Benchmarking YOLOv8 for Infrared Human Detection on Edge Devices in Drone-Based Search and Rescue},
+  school  = {Universitas Garut},
+  year    = {2026},
+  type    = {Bachelor's Thesis (Skripsi)},
+  address = {Garut, Indonesia}
 }
 ```
 
