@@ -23,9 +23,8 @@
 - [Usage](#-usage)
   - [Training](#1-training)
   - [Model Conversion](#2-model-conversion)
-  - [Inference](#3-inference)
-  - [Evaluation](#4-evaluation)
-  - [Benchmarking](#5-benchmarking)
+  - [Evaluation](#3-evaluation)
+  - [Benchmarking](#4-benchmarking)
 - [Model Weights](#-model-weights)
 - [Hardware Specifications](#-hardware-specifications)
 - [Citation](#-citation)
@@ -155,12 +154,6 @@ This research benchmarks all five YOLOv8 variants for **thermal infrared human d
 │   ├── convert_onnx_to_trt.py   # .onnx → .engine (Jetson)
 │   └── convert_to_tflite.py     # .pt → .tflite (Raspberry Pi)
 │
-├── inference/                   # Real-time detection scripts
-│   ├── detect_camera.py         # Camera detection (CPU)
-│   ├── detect_camera_gpu.py     # Camera detection (GPU)
-│   ├── detect_video.py          # Video file detection
-│   └── run_inference.py         # Generic inference
-│
 ├── evaluation/                  # Model evaluation scripts
 │   ├── test_model_wisard.py     # Eval on WiSARD IR test set
 │   ├── val.py                   # Validation split evaluation
@@ -199,7 +192,7 @@ This research benchmarks all five YOLOv8 variants for **thermal infrared human d
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/drone-wisard.git
+git clone https://github.com/Xisdev/performance-analysis-yolov8n-wisard.git
 cd drone-wisard
 
 # Create virtual environment
@@ -249,19 +242,7 @@ python conversion/convert_onnx_to_trt.py --fp16
 python conversion/convert_to_tflite.py
 ```
 
-### 3. Inference
-
-Run detection on camera or video:
-
-```bash
-# Real-time camera detection
-python inference/detect_camera.py --cam 0 --conf 0.35
-
-# Video file detection
-python inference/detect_video.py
-```
-
-### 4. Evaluation
+### 3. Evaluation
 
 Evaluate model accuracy on the WiSARD IR test set:
 
@@ -273,7 +254,7 @@ python evaluation/test_model_wisard.py
 python evaluation/val.py
 ```
 
-### 5. Benchmarking
+### 4. Benchmarking
 
 Benchmark on edge devices:
 
